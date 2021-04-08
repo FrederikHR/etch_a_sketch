@@ -1,1 +1,1 @@
-# etch_a_sketch
+# etch_a_sketch app made as part of The Odin Project
