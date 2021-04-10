@@ -1,1 +1,3 @@
 # Etch-a-sketch app made as part of The Odin Project
+# Check out the project here: https://frederikhr.github.io/etch_a_sketch/
+# Status: In development...
