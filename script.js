@@ -16,12 +16,6 @@ function addElement () {
 }
 */
 
-
-
-
-
-
-
 function make_16_divs(){
 
   for(i = 0; i < 16; i++){
@@ -33,17 +27,28 @@ function make_16_divs(){
     box_div.style.width = "220px";
     box_div.style.height =  "220px";
 
+
     box_div.className = "sub_div";
-    box_div.addEventListener("mouseover", function( event ) {
+    box_div.addEventListener("mouseover", function( element ) {
       // highlight the mouseover target
-      event.target.style.backgroundColor = "#55cbd3";
+      element.target.style.backgroundColor = "#55cbd3";
     });
     document.getElementById("main_div").appendChild(box_div);
   }
 }
 make_16_divs();
 
+let reset_button = document.getElementById("reset_button");
+reset_button.style.width = "100px";
+reset_button.style.height = "100px";
+reset_button.style.backgroundColor = "#fa6987";
+reset_button.style.fontFamily = "Arial";
+reset_button.style.fontSize = "25px";
 
-// add an eventlistener to every sub_div on the page
-
-
+reset_button.addEventListener("click", function(){
+  let sub_divs = document.getElementsByClassName("sub_div");
+  Array.from(sub_divs).forEach((sub_div) => {
+    // Reset color for all boxes
+    sub_div.style.backgroundColor = "#FFF";
+});
+});
