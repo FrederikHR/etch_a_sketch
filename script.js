@@ -38,12 +38,7 @@ function make_16_divs(){
 }
 make_16_divs();
 
-let reset_button = document.getElementById("reset_button");
-reset_button.style.width = "100px";
-reset_button.style.height = "100px";
-reset_button.style.backgroundColor = "#fa6987";
-reset_button.style.fontFamily = "Arial";
-reset_button.style.fontSize = "25px";
+
 
 reset_button.addEventListener("click", function(){
   let sub_divs = document.getElementsByClassName("sub_div");

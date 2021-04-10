@@ -12,6 +12,16 @@
 
 
 }
+
+#reset_button{
+
+    width: 100px;
+    height: 100px;
+    background-color: #fa6987;
+    font-family: Arial;
+    font-size: 25px;
+
+}
 /*
 .sub_div{
     background-color: rgba(255, 255, 255, 0.8);
