@@ -1,12 +1,16 @@
 #main_div {
 
-    display: grid;
+    display: inline-grid;
     border: 2px;
     border-style: solid;
     grid-template-columns: auto auto auto auto;
     padding: 10px;
-    height: 100%;
-    margin: 0;
+    grid-gap: 5px;
+
+
+
+
+
 }
 /*
 .sub_div{
