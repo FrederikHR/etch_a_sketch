@@ -1,36 +1,17 @@
 #main_div {
-
-    display: inline-grid;
-    border: 2px;
-    border-style: solid;
-    grid-template-columns: auto auto auto auto;
-    padding: 10px;
-    grid-gap: 5px;
-
-
-
-
-
+    width: 860px;
+    height: 860px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
 }
-
 #reset_button{
-
+    position: absolute;
+    bottom: 200px;
     width: 100px;
     height: 100px;
     background-color: #fa6987;
     font-family: Arial;
     font-size: 25px;
-
-}
-/*
-.sub_div{
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 40px;
-    font-size: 30px;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-  
-
 }
