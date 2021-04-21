@@ -1,5 +1,5 @@
 Etch-a-sketch app made as part of The Odin Project
-Check out the app here: **https://frederikhr.github.io/etch_a_sketch/**
+# Check out the app here: **https://frederikhr.github.io/etch_a_sketch/**
 
 
 **Sources**:
