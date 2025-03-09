@@ -8,15 +8,14 @@ h1{
 #main_div {
     top: 50px;
     position: relative;
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     margin: auto;
     display: grid;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
 }
 #reset_button{
-    position: absolute;
     bottom: 300px;
     width: 100px;
     height: 100px;
@@ -25,19 +24,10 @@ h1{
     font-size: 25px;
 }
 #slider{
-    position:absolute;
+    width: 200px;
     bottom: 500px;
 }
 
-footer{
-    width:100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 50px;
-    background-color: #55cbd3;
-
-}
 
 a{
     position: relative;
@@ -45,3 +35,11 @@ a{
     top: 10px;
     left: 823px;
 }
+
+.left-pane{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content:space-between;
+}
+  

@@ -1,4 +1,4 @@
-Etch-a-sketch app made as part of The Odin Project
+Etch-a-sketch app.
 # Check out the app here: **https://frederikhr.github.io/etch_a_sketch/**
 
 
