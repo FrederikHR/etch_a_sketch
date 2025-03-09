@@ -1,5 +1,6 @@
 Etch-a-sketch app. https://frederikhr.github.io/etch_a_sketch/
 <br>
+
 ![exampleGame](example.png)
 
 
